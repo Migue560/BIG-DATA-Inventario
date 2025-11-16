@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>20241695014_teclado_0001.png</filename>
+	<path>C:\Users\Admin\Desktop\inventario\images\20241695014_teclado_0001.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>852</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>teclado</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>152</ymin>
+			<xmax>847</xmax>
+			<ymax>475</ymax>
+		</bndbox>
+	</object>
+</annotation>

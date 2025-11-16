@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>20172167090_Teclado_4.png</filename>
+	<path>C:\Users\Admin\Desktop\inventario\images\20172167090_Teclado_4.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>848</width>
+		<height>478</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>teclado</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>498</xmin>
+			<ymin>67</ymin>
+			<xmax>837</xmax>
+			<ymax>389</ymax>
+		</bndbox>
+	</object>
+</annotation>

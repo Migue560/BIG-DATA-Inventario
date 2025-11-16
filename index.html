@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Inventario automático - Salón de cómputo</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Inventario automático — Salón de cómputo</h1>
+    <p class="muted">Carga una imagen (.jpg/.png). El sistema intentará cargar un modelo TFLite localmente y, si no se encuentra o falla, usará una simulación para demostrar la funcionalidad.</p>
+    <div class="controls">
+      <input id="imgfile" type="file" accept="image/*" />
+      <button id="runbtn">Detectar y Contar</button>
+      <span id="status">Estado: esperando ...</span>
+    </div>
+    <canvas id="canvas"></canvas>
+    <div id="legend"></div>
+    <div class="counts" id="counts"></div>
+    <hr/>
+    <p class="muted small">Coloca tu modelo TFLite en <strong>model/modelo.tflite</strong> para usar detección real. Si no hay modelo o falla, se usará la simulación.</p>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.11.0/dist/tf.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-tflite@0.0.1/dist/tf-tflite.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>

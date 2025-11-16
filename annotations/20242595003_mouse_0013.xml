@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>20242595003_mouse_0013.png</filename>
+	<path>C:\Users\Admin\Desktop\inventario\images\20242595003_mouse_0013.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>720</width>
+		<height>1280</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>mouse</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>295</xmin>
+			<ymin>492</ymin>
+			<xmax>614</xmax>
+			<ymax>1054</ymax>
+		</bndbox>
+	</object>
+</annotation>

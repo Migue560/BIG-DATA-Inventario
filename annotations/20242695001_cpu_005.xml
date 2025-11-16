@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>20242695001_cpu_005.png</filename>
+	<path>C:\Users\Admin\Desktop\inventario\images\20242695001_cpu_005.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>720</width>
+		<height>1280</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>CPU</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>147</xmin>
+			<ymin>49</ymin>
+			<xmax>705</xmax>
+			<ymax>1173</ymax>
+		</bndbox>
+	</object>
+</annotation>
